@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Peptide Tracker – Precision Protocol Management</title>
+  <meta name="description" content="Peptide Tracker is a privacy-first app for managing peptide protocols with precision. Track dosing, schedules, metrics, and progress—all on device." />
+  <style>
+    :root {
+      --bg: #0f1115;
+      --card: #171a21;
+      --text: #e6e8ee;
+      --muted: #9aa1b2;
+      --accent: #5ddcff;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(180deg, #0f1115, #12141b);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 64px 24px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 64px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 16px;
+    }
+
+    header p {
+      color: var(--muted);
+      font-size: 1.25rem;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .badge {
+      display: inline-block;
+      background: rgba(93,220,255,0.15);
+      color: var(--accent);
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-size: 0.9rem;
+      margin-bottom: 24px;
+    }
+
+    section {
+      margin-bottom: 64px;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 16px;
+    }
+
+    p {
+      color: var(--muted);
+      max-width: 800px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
+      margin-top: 32px;
+    }
+
+    .card {
+      background: var(--card);
+      padding: 24px;
+      border-radius: 16px;
+      border: 1px solid rgba(255,255,255,0.05);
+    }
+
+    .card h3 {
+      margin-bottom: 8px;
+      font-size: 1.2rem;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+    }
+
+    .cta {
+      text-align: center;
+      background: linear-gradient(180deg, #171a21, #1b1f2a);
+      padding: 48px 24px;
+      border-radius: 24px;
+      border: 1px solid rgba(255,255,255,0.05);
+    }
+
+    .cta h2 {
+      margin-bottom: 16px;
+    }
+
+    footer {
+      margin-top: 64px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <header>
+      <div class="badge">Privacy-First · On-Device Only</div>
+      <h1>Peptide Tracker</h1>
+      <p>
+        Precision protocol management for people who take peptide tracking seriously.
+        Organise dosing, schedules, and progress—without spreadsheets, subscriptions, or cloud storage.
+      </p>
+    </header>
+
+    <section>
+      <h2>What It Does</h2>
+      <p>
+        Peptide Tracker helps you manage peptide protocols with clarity and accuracy.
+        Everything is designed to reduce friction, prevent mistakes, and give you a clear
+        view of your regimen over time.
+      </p>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Flexible Scheduling</h3>
+          <p>
+            Weekly schedules, frequency-based dosing, or one-off protocols with smart reminders.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Built-In Dose Calculator</h3>
+          <p>
+            Calculate accurate doses instantly based on vial concentration and target amount.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Calendar Views</h3>
+          <p>
+            Clean daily and monthly views showing completed, upcoming, and missed doses.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Progress Tracking</h3>
+          <p>
+            Track weight, waist, custom metrics, notes, and photos with clear visual graphs.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Multi-Profile Support</h3>
+          <p>
+            Manage protocols for more than one person—each with their own data and history.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Works Offline</h3>
+          <p>
+            No internet required. Your data stays on your device at all times.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Privacy by Design</h2>
+      <p>
+        Peptide Tracker does not collect, transmit, or sell your data.
+        There are no accounts, no analytics, no ads, and no cloud sync.
+        All information is stored locally on your device.
+      </p>
+    </section>
+
+    <div class="cta">
+      <h2>Built for Accuracy, Not Noise</h2>
+      <p>
+        If you want a focused, reliable way to manage peptide protocols without subscriptions
+        or unnecessary complexity, Peptide Tracker is built for you.
+      </p>
+    </div>
+
+    <footer>
+      <p>
+        © 2026 Peptide Tracker<br />
+        Contact: <a href="mailto:me@fooji.life">me@fooji.life</a>
+      </p>
+    </footer>
+
+  </div>
+</body>
+</html>
